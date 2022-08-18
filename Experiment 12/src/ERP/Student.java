@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Student{
     Scanner sc = new Scanner(System.in);
 
-    public void fillUpForm(Form form){
+    public void fillUpForm(Form form) {
         System.out.println("Enter student name: ");
         form.setName(sc.nextLine());
         System.out.println("Enter student ID: ");

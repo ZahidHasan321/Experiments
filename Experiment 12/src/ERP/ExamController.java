@@ -5,6 +5,6 @@ public class ExamController{
     public static final String ANSI_GREEN = "\u001B[32m";
     public void generateAdmitCard(Form form){
         System.out.println(ANSI_GREEN + "Admit card generated" + ANSI_RESET);
-        System.out.println(form);
+        CseOffice.getForm(form);
     }
 }

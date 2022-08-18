@@ -17,4 +17,9 @@ public class CseOffice{
                throw new Exception(ANSI_RED + "Insufficient Attendance" + ANSI_RESET);
           }
      }
+
+     public static void getForm(Form form){
+          System.out.println("Cse office has the form!");
+          System.out.println(form);
+     }
 }
